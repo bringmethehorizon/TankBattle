@@ -1,0 +1,26 @@
+﻿Build started 1/21/2014 00:21:11.
+     1>Project "C:\Users\Teodor\documents\visual studio 2012\Projects\a_game\a_game\a_game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\SFML-2.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AITank.cpp Game.cpp
+         Game.cpp
+     1>c:\users\teodor\documents\visual studio 2012\projects\a_game\a_game\game.cpp(311): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\teodor\documents\visual studio 2012\projects\a_game\a_game\game.cpp(371): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\teodor\documents\visual studio 2012\projects\a_game\a_game\game.cpp(464): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\teodor\documents\visual studio 2012\projects\a_game\a_game\game.cpp(502): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         AITank.cpp
+     1>c:\users\teodor\documents\visual studio 2012\projects\a_game\a_game\aitank.cpp(186): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\teodor\documents\visual studio 2012\projects\a_game\a_game\aitank.cpp(197): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\teodor\documents\visual studio 2012\projects\a_game\a_game\aitank.cpp(213): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\teodor\documents\visual studio 2012\projects\a_game\a_game\aitank.cpp(224): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Teodor\documents\visual studio 2012\Projects\a_game\Debug\a_game.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\SFML-2.1\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Teodor\documents\visual studio 2012\Projects\a_game\Debug\a_game.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Teodor\documents\visual studio 2012\Projects\a_game\Debug\a_game.lib" /MACHINE:X86 Debug\AITank.obj
+         Debug\Game.obj
+         Debug\Menu.obj
+         Debug\Source.obj
+         a_game.vcxproj -> C:\Users\Teodor\documents\visual studio 2012\Projects\a_game\Debug\a_game.exe
+     1>Done Building Project "C:\Users\Teodor\documents\visual studio 2012\Projects\a_game\a_game\a_game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.76

@@ -63,22 +63,22 @@ class AITank :
 public:
 	AITank(char (&_m)[15][20],sf::Texture&);
 	void pause();
+	void drive(sf::Time);
+	virtual ~AITank(void);
+	void think(int,int,int,int);
 	sf::Texture& tx;
 	sf::Sprite bullet;
 	sf::Texture bulletTex;
-	bool bulletAlive;
-	int bulletDir;
 	sf::IntRect ir;
-	void drive(sf::Time);
-	virtual ~AITank(void);
-	bool alive;
-	bool canMove;
+	int bulletDir;
+	int direction;
 	//vector<sf::Vector2f> targets;
 	stack<Node> answer;
-	void think(int,int,int,int);
-	int direction;
 	std::chrono::time_point<std::chrono::system_clock> last_movement;
 	char (&m)[15][20];
+	bool bulletAlive;
+	bool alive;
+	bool canMove;
 	bool killed;
 };
 
